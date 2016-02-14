@@ -1,0 +1,78 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #FF3E10;
+  margin: auto;
+    }
+a:link {
+  color: #FF3E10;
+}
+a:hover {
+  color: #FF3E10;
+}
+a:visited{
+  color: #6303E8;
+}
+header {
+  background-image: url("https://images.unsplash.com/photo-1415906115194-bad6c6bda169?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=de781b870490e14cbb5d3f1e893dadca");
+  background-size: cover;
+  border-top: .5em solid #E8C903;
+  font-family: 'Open Sans', sans-serif;
+  padding: 3em 0;
+  text-align: center;
+  }
+span.intro{
+ font-size: 4em;
+}
+span.title{
+  font-size: 7.5em;
+  font-weight: bold;
+  text-shadow: 4px 2px #FF3E10;
+}
+
+.introduction-section {
+  background-color: #E8C903;
+  max-width: 38em;
+  text-align: justify;
+  margin: 1.75em auto;
+  padding: 2.5em;
+}
+
+.more-section {
+  background-color: #19FF69;
+  max-width: 38em;
+  text-align: justify;
+  margin: 1.75em auto;
+  padding: 2.5em;
+  }
+
+h1 {
+  text-transform: uppercase;
+  text-shadow: 1px 0 #19FF69;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-shadow: 1px 0 #E8C903;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #6303E8;
+}
+
+.footer-intro{
+  font-size: 24px;
+  text-style: bold;
+}
+footer{
+  background-color: #6303E8;
+  margin-top: 2em;
+  padding: 2em 0; 
+  text-align: center;
+}
+
+ul.social {
+  word-spacing: 30px;
+  display: inline;
+}
