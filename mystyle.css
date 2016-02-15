@@ -111,11 +111,12 @@ ul.social {
 footer {
   background-color: #353C3F;
   padding-top: 1em;
-  padding-bottom: 1em;
+  padding-bottom: 2em;
   color:#FF8D3F;
   text-align: center;
   width:100%;
   border-bottom: none;
+  margin-bottom: 0;
 }
 
 
