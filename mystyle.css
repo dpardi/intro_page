@@ -75,7 +75,7 @@ h1 {
   text-shadow: 1px 0 #353C3F;
   font-size: 1.5rem;
   color: #FF8D3F;
-  padding: .5em 0 .5em 0;
+  padding: 0em 0 .5em 0;
 }
 
 h2 {
@@ -89,7 +89,7 @@ h3 {
   text-transform: uppercase;
   font-size: 1rem;
   color: #D5D6D2;
-  padding: .5em 0 .5em 0;
+  padding: 0;
 }
 
 .answers {
@@ -114,11 +114,11 @@ li {
 footer {
   background-color: #353C3F;
   padding-top: 1em;
-  padding-bottom: 2em;
+  padding-bottom: 1.5em;
   color:#FF8D3F;
   text-align: center;
   width:100%;
-  border-bottom: none;
+  border-bottom: solid 1em #353C3F;
   margin-bottom: 0;
 }
 
