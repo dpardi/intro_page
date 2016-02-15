@@ -1,5 +1,5 @@
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -30,9 +30,11 @@ body {
 a:link {
   color: #D5D6D2;
 }
+
 a:hover {
   color: #FF8D3F;
 }
+
 a:visited{
   color: #FF8D3F;
 }
@@ -46,11 +48,11 @@ header {
   text-align: center;
   }
 
-span.intro{
+.intro{
  font-size: 2em;
 }
 
-span.title{
+.title{
   font-size: 7.5em;
   font-weight: bold;
   text-shadow: 4px 2px #FF8D3F;
@@ -63,6 +65,7 @@ span.title{
   margin: 1.75em auto;
   padding: 2.5em;
 }
+
 .intro-passion {
   margin-top: 1em;
 }
@@ -89,7 +92,7 @@ h3 {
   padding: .5em 0 .5em 0;
 }
 
-ul.answers {
+.answers {
   list-style: circle;
 }
 
@@ -102,7 +105,7 @@ li {
   text-align: center;
 }
 
-ul.social {
+.social {
   word-spacing: 30px;
   display: inline;
   list-style: none;
@@ -122,7 +125,7 @@ footer {
 
 @media only screen and (max-width: 500px) {
     .masthead {
-        padding: 0em 0;
+        padding: 0 0;
     }
     .masthead-heading {
         font-size: 3em;
